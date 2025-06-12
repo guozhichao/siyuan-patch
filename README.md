@@ -60,8 +60,10 @@
         ```
 
     3. 进入该项目的 `settings`-`Secrets and variables`-`Actions`, 点击 `New repository secret` 添加环境变量
-    4. `KEYSTORE` 上面`your_signing_keystore_base64_encoded.txt` 里面的内容
-    5. `KEYSTORE_PASSWORD` 生成上传密钥时填写的密码
+       `KEYSTORE` 上面`your_signing_keystore_base64_encoded.txt` 里面的内容
+       `KEYSTORE_PASSWORD` 生成上传密钥时填写的密码
+       ![image](https://github.com/user-attachments/assets/23ad34bf-8b89-4b76-8df6-d15c1e0b1358)
+
 
 4. 如果需要构建 Docker 镜像
     1. 进入 `https://hub.docker.com/settings/security`, 点击 `New Access Token` 添加 token, 记住并保存该token

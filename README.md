@@ -60,10 +60,9 @@
         ```
 
     3. 进入该项目的 `settings`-`Secrets and variables`-`Actions`, 点击 `New repository secret` 添加环境变量
-       变量一：`KEYSTORE` 上面`your_signing_keystore_base64_encoded.txt` 里面的内容
-       
-       变量二：`KEYSTORE_PASSWORD` 生成上传密钥时填写的密码
-       
+       - `KEYSTORE` 上面`your_signing_keystore_base64_encoded.txt` 里面的内容
+       - `KEYSTORE_PASSWORD` 生成上传密钥时填写的密码
+         
        ![image](https://github.com/user-attachments/assets/23ad34bf-8b89-4b76-8df6-d15c1e0b1358)
 
 
